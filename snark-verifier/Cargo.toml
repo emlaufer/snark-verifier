@@ -11,7 +11,8 @@ num-integer = "0.1.45"
 num-traits = "0.2.15"
 rand = "0.8"
 hex = "0.4"
-halo2_curves = { package ="halo2curves", version = "0.6.0", features = ["derive_serde"] }
+#halo2_curves = { package ="halo2curves", version = "0.6.0", features = ["derive_serde"] }
+halo2_curves = { package = "halo2curves", git = "https://github.com/privacy-scaling-explorations/halo2curves", default-features = false }
 
 
 # parallel
